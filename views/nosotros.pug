@@ -1,0 +1,31 @@
+extends ./layouts/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut erat velit, molestie eget efficitur in, molestie sed nisl. Morbi pulvinar est in enim tincidunt, eget lobortis odio consequat. 
+
+                p Aenean et augue augue. Sed non dui ut arcu luctus rutrum non in eros. Nullam efficitur dui turpis, sit amet tincidunt nunc semper et. Vivamus bibendum lacinia dui, sit amet vehicula purus aliquam eu. Sed gravida mi metus, ut finibus nibh interdum at. Pellentesque dignissim aliquam mattis. Morbi eget magna gravida, sagittis ipsum id, volutpat dolor. Vestibulum a est sapien. Suspendisse luctus, turpis vitae lobortis dapibus, neque quam viverra purus, eu blandit augue metus at risus. Maecenas non aliquam nisi. Donec tincidunt orci sed tortor iaculis, et pellentesque ante lacinia.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Aenean et augue augue. Sed non dui ut arcu luctus rutrum non in eros. Nullam efficitur dui turpis, sit amet tincidunt nunc semper et.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Destinos
+                    p Aenean et augue augue. Sed non dui ut arcu luctus rutrum non in eros. Nullam efficitur dui turpis, sit amet tincidunt nunc semper et.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Precios
+                    p Aenean et augue augue. Sed non dui ut arcu luctus rutrum non in eros. Nullam efficitur dui turpis, sit amet tincidunt nunc semper et.
+
