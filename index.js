@@ -1,7 +1,6 @@
 //commonjs
 //require('dotenv').config({path:path.resolve('variables.env')});
 //const express = require ('express');
-import esm from 'esm';
 import express from 'express';
 import router from './routes/index.js';
 import db from "./config/db.js";

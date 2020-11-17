@@ -1,5 +1,5 @@
-import pkg from 'sequelize';
-const {Sequelize} = pkg;
+import { Sequelize } from 'sequelize';
+
 // require('dotenv').config({path: path.resolve('variables.env')});
 import dotenv from 'dotenv';
 dotenv.config();
