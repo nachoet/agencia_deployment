@@ -1,4 +1,7 @@
-import { Sequelize} from "sequelize";
+// import { Sequelize} from "sequelize";
+
+const Sequelize = require('sequelize');
+
 import db from "../config/db.js";
 
 export const Testimonial = db.define('testimoniales', {
