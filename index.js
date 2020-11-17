@@ -46,7 +46,7 @@ app.use(express.static('public'));
 
 //puerto y host para la app
 
-const host = process.env.HOST || '0.0.0.0';
+const host = process.env.HOST ;
 const port = process.env.PORT || 3000;
 
 app.listen(port,host,() => {
