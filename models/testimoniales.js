@@ -1,6 +1,6 @@
-// import { Sequelize} from "sequelize";
+import { Sequelize} from "sequelize";
 
-const Sequelize = require('sequelize');
+//const Sequelize = require('sequelize');
 
 import db from "../config/db.js";
 
